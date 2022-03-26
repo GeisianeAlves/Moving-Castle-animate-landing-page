@@ -17,7 +17,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     margin: 0px auto;
     background-image: url(img/castelo\ vetor222.png);
     background-size: 900px;
@@ -34,22 +34,25 @@ body {
 
 
 .banner .content {
+   
     max-width: 680px;
-    margin-top: 0px;
+    
     margin-right: 140px;
     font-family: 'Gelasio', serif;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;      
+   
 }
 
 .icones-menu {
-    margin-top: -80px;
-    padding-top: 0;
+   
+    padding-top: 20px;
 }
 
 .icones-menu .icone {
+    margin-top: 0px;
     height: 40px;
     text-align: right;
     padding-bottom: 150px;
@@ -66,6 +69,7 @@ body {
     letter-spacing: 0.07em;
     color: rgb(42, 37, 71);
     text-align: right;
+    padding-bottom: -50px;
 }
 
 .banner .content h2 span {
@@ -79,8 +83,9 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.5em;
     color: rgb(19, 17, 20);
-    margin: 15px 0 35px;
+    margin: 15px 0 25px;
     text-align: right;
+    padding-bottom: 100px;
 }
 
 /*responsividade*/
@@ -88,7 +93,7 @@ body {
 @media (max-width: 991px) {
 
     .banner {
-        position: relative;        
+        position: relative;               
         background-size: 700px;
         display: flex;
         justify-content: flex-start;
@@ -97,28 +102,29 @@ body {
 
     @keyframes animate-background {
         from {background-position: 80% 70px;}
-        to { background-position: -200px -100px;}
+        to { background-position: -200px 0px;}
     }
 
     .banner .content {    
-        margin-top: 0px;
+        top: initial;
+        right: initial;
+        max-width: 850px;       
         margin-left: 50px;        
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-start;          
     }
 
     .banner .content h2 {
         text-shadow: 1px 1px rgb(244, 210, 255);
-        text-align: left;
-        line-height: 1.1em;    
-        font-size: 2.3em;
-        letter-spacing: 0.07em;
+        text-align: left;  
+        font-size: 2em;
+        letter-spacing: 0.05em;
      
     }
     .icones-menu {
-        margin-top: -60px;        
+        margin-top: 0px;        
     }
     
     .icones-menu .icone {
@@ -130,9 +136,8 @@ body {
     }
 
     .banner .content p {
-        font-size: 1.1em;
-        font-weight: 400;      
-        line-height: 1.3em;        
+        font-size: 1em;
+        font-weight: 500;             
         text-align: left;
     }
 }
