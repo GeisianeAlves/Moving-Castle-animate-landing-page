@@ -108,7 +108,7 @@ body {
     .banner .content {    
         top: initial;
         right: initial;
-        max-width: 850px;       
+        max-width: 900px;       
         margin-left: 50px;        
         display: flex;
         flex-direction: column;
@@ -123,7 +123,9 @@ body {
         letter-spacing: 0.05em;
      
     }
-    
+    .icones-menu {
+        padding-top: 20px;
+    }
     .icones-menu .icone {
         height: 30px;
         text-align: left;
@@ -133,7 +135,7 @@ body {
     }
 
     .banner .content p {
-        font-size: 1em;
+        font-size: 0.7em;
         font-weight: 400;             
         text-align: left;
     }
