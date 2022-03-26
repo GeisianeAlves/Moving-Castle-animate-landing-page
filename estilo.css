@@ -20,15 +20,15 @@ body {
     align-items: center;
     margin: 0px auto;
     background-image: url(img/castelo\ vetor222.png);
-    background-size: 900px, 400px;
-    background-position: 100% 0px, 100% 50px;
+    background-size: 900px;
+    background-position: 100% 0px;
     background-repeat: no-repeat;
     animation: animate-background linear 12s infinite;
 
 }
 @keyframes animate-background {
-    from {background-position: 40% 50px, 400px 1000px;}
-    to { background-position: 0px -100px, -1000px 0px;}
+    from {background-position: 40% 50px;}
+    to { background-position: 0px -100px;}
 }
 
 
@@ -41,8 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
-      
+    align-items: flex-end;      
 }
 
 .icones-menu {
@@ -74,8 +73,7 @@ body {
     font-size: 1.5em;
 }
 
-.banner .content p {
-    
+.banner .content p {    
     font-size: 1.2em;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -83,4 +81,58 @@ body {
     color: rgb(19, 17, 20);
     margin: 15px 0 35px;
     text-align: right;
+}
+
+/*responsividade*/
+
+@media (max-width: 991px) {
+
+    .banner {
+        position: relative;        
+        background-size: 700px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    @keyframes animate-background {
+        from {background-position: 80% 70px;}
+        to { background-position: -200px -100px;}
+    }
+
+    .banner .content {    
+        margin-top: 0px;
+        margin-left: 50px;        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;          
+    }
+
+    .banner .content h2 {
+        text-shadow: 1px 1px rgb(244, 210, 255);
+        text-align: left;
+        line-height: 1.1em;    
+        font-size: 2.3em;
+        letter-spacing: 0.07em;
+     
+    }
+    .icones-menu {
+        margin-top: -60px;        
+    }
+    
+    .icones-menu .icone {
+        height: 30px;
+        text-align: left;
+        padding-bottom: 250px;
+        padding-left: 0;
+        padding-right: 7px;
+    }
+
+    .banner .content p {
+        font-size: 1.1em;
+        font-weight: 400;      
+        line-height: 1.3em;        
+        text-align: left;
+    }
 }
