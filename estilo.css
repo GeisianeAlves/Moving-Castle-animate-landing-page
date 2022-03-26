@@ -124,12 +124,12 @@ body {
      
     }
     .icones-menu {
-        padding-top: 50px;
+        padding-top: -50px;
     }
     .icones-menu .icone {
         height: 30px;
         text-align: left;
-        padding-bottom: 120px;
+        padding-bottom: 150px;
         padding-left: 0;
         padding-right: 7px;
     }
