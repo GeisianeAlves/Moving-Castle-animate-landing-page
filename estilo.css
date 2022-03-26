@@ -85,7 +85,7 @@ body {
     color: rgb(19, 17, 20);
     margin: 15px 0 25px;
     text-align: right;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 /*responsividade*/
@@ -94,15 +94,15 @@ body {
 
     .banner {
         position: relative;               
-        background-size: 700px;
+        background-size: 500px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
     @keyframes animate-background {
-        from {background-position: 80% 70px;}
-        to { background-position: -200px 0px;}
+        from {background-position: 120% 70px;}
+        to { background-position: -250px 0px;}
     }
 
     .banner .content {    
@@ -124,20 +124,20 @@ body {
      
     }
     .icones-menu {
-        margin-top: 0px;        
+        margin-top: -250px;        
     }
     
     .icones-menu .icone {
         height: 30px;
         text-align: left;
-        padding-bottom: 250px;
+        padding-bottom: 150px;
         padding-left: 0;
         padding-right: 7px;
     }
 
     .banner .content p {
         font-size: 1em;
-        font-weight: 500;             
+        font-weight: 400;             
         text-align: left;
     }
 }
