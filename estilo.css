@@ -119,18 +119,18 @@ body {
     .banner .content h2 {
         text-shadow: 1px 1px rgb(244, 210, 255);
         text-align: left;  
-        font-size: 2em;
+        font-size: 1.8em;
         letter-spacing: 0.05em;
      
     }
     .icones-menu {
-        margin-top: -250px;        
+        margin-top: -150px;        
     }
     
     .icones-menu .icone {
         height: 30px;
         text-align: left;
-        padding-bottom: 150px;
+        padding-bottom: 100px;
         padding-left: 0;
         padding-right: 7px;
     }
