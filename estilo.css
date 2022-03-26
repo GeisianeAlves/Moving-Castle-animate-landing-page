@@ -108,7 +108,7 @@ body {
     .banner .content {    
         top: initial;
         right: initial;
-        max-width: 950px;       
+        max-width: 960px;       
         margin-left: 50px;        
         display: flex;
         flex-direction: column;
@@ -124,7 +124,7 @@ body {
      
     }
     .icones-menu {
-        padding-top: 50px;
+        padding-top: 80px;
     }
     .icones-menu .icone {
         height: 30px;
