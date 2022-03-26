@@ -123,14 +123,11 @@ body {
         letter-spacing: 0.05em;
      
     }
-    .icones-menu {
-        margin-top: -150px;        
-    }
     
     .icones-menu .icone {
         height: 30px;
         text-align: left;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         padding-left: 0;
         padding-right: 7px;
     }
